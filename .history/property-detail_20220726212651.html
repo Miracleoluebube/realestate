@@ -19,17 +19,6 @@
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 
-
-  
-
-
-
-
-
-
-
-
-
 </head>
 
 <body>
@@ -191,21 +180,11 @@
       <!-- End: image slider -->
 
       <!-- Start: map -->
-      <div id="map">
-        <script async defer
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDs8VsUAELgKZvrFIbWRXqwrTV6PzmHh_U&callback=initMap">
-</script>
-      </div>
+      <div id="map"></div>
       <!-- End: map -->
 
       <!-- Start: street view -->
-      <div id="street">
-        <iframe 
-  src="https://www.google.com/maps/embed?pb=!4v1658862134099!6m8!1m7!1s2iF2ReCsCPtiULKTIMxY9A!2m2!1d6.434532848810041!2d3.458566433359816!3f225.3412069589723!4f2.130422860042586!5f0.7820865974627469"
-   width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
-   referrerpolicy="no-referrer-when-downgrade">
-  </iframe> 
-      </div>
+      <div id="street"></div>
       <!-- End: street view -->
 
       <div class="slider-options-container flex">
@@ -663,10 +642,16 @@
       Copyright &copy; 2020 All rights reserved | XYZ Realty Inc.
     </small>
   </footer>
-  
+  <!-- <iframe 
+  src="https://www.google.com/maps/embed?pb=!4v1658862134099!6m8!1m7!1s2iF2ReCsCPtiULKTIMxY9A!2m2!1d6.434532848810041!2d3.458566433359816!3f225.3412069589723!4f2.130422860042586!5f0.7820865974627469"
+   width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+   referrerpolicy="no-referrer-when-downgrade">
+  </iframe> -->
+  <iframe src="https://www.google.com/maps/embed?pb=!4v1658867093969!6m8!1m7!1syl7N6JvJx6WZV8yz-eA_8A!2m2!1d6.434314912081732!2d3.45856358259228!3f280.1393!4f0!5f0.7820865974627469" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
-  
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDs8VsUAELgKZvrFIbWRXqwrTV6PzmHh_U&callback=initMap"></script>
 </body>
 
 <script src="js/scripts.js"></script>
