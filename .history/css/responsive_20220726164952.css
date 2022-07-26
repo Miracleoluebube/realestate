@@ -1,0 +1,56 @@
+@media (min-width: 320px) and (max-width: 480px) { 
+    .navbar{
+        background-color: var(--color-dark);
+    }
+    .caption{
+        padding: 0 40px;
+    }
+    .caption-heading{
+        font-size: 2em;
+        line-height: 1.4em;
+    }
+    .section-title{
+        font-size: 1.6em;
+    }
+    .testimonial{
+        max-width: 100%;
+    }
+    .contact-form {
+        max-width: initial;
+    }
+    .foot-bottom-text,
+    .footer .content-right{
+        text-align: center;
+    }
+}
+
+@media(max-width: 768px){
+    .navbar-toggler{
+display: block;
+    
+}
+.navbar-toggler.active .navbar-nav:nth-child(1){
+    opacity: 0;
+}
+.navbar-toggler.active .navbar-nav:nth-child(2){
+    transform: translateY(8px) rotate(45deg);
+}
+.navbar-toggler.active .navbar-nav:nth-child(3){
+    opacity: 0;
+}
+.navbar-toggler.active .navbar-nav:nth-child(4){
+    opacity: 0;
+}
+video.navbar-toggler.active .navbar-nav:nth-child(5){
+    opacity: 0;
+}
+.navbar-toggler.active .navbar-nav:nth-child(6){
+    opacity: 0;
+}
+.nav-menu{
+    position: fixed;
+    left: -100%;
+    top: ;
+}
+
+}
